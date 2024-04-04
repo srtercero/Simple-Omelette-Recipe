@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 12px;
+}
+ol li::marker {
+  color: #854632;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+body {
+  font-family: "Young Serif", sans-serif;
+  background-color: #f3e5d7;
+}
+section {
+  margin-top: 123px;
+  margin-bottom: 123px;
+}
+.container {
+  border-radius: 24px;
+  padding: 40px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  background-color: white;
+  max-width: 100%;
+  width: 736px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 40px;
+}
+h1 {
+  font-size: 40px;
+  color: hsl(24, 5%, 18%);
+  font-weight: 400;
+  line-height: 1;
+}
+.parrafo {
+  margin-top: 24px;
+}
+p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: hsl(30, 10%, 34%);
+}
+.preparation {
+  background-color: #fff7fb;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 28px;
+  margin-top: 32px;
+}
+.preparation h3 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+}
+.listPreparation {
+  margin-top: 16px;
+  padding-left: 28px;
+}
+.listPreparation ul li {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  padding: 8px;
+}
+.ingredients,
+.instructions,
+.nutrition {
+  margin-top: 32px;
+  padding-left: 28px;
+}
+.ingredients h2 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #854632;
+}
+.ingredients ul li {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: hsl(30, 10%, 34%);
+  padding: 8px;
+}
+.ingredients ul li::marker {
+  color: hsl(30, 10%, 34%);
+}
+.listIngredients {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+hr {
+  border: 0.1px solid #e3ddd7;
+}
+.instructions h2 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #854632;
+}
+.instructions ol li {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: hsl(30, 10%, 34%);
+  padding: 8px;
+  line-height: 150%;
+}
+.instructions ul li::marker {
+  color: hsl(30, 10%, 34%);
+}
+.listIntructions {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.nutrition h2 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #854632;
+}
+.parrafoNutrition {
+  padding: 24px 0px 24px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+table {
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+}
+.color {
+  color: #854632;
+  font-weight: 600;
+}
+.bold {
+  font-weight: 600;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 480px) {
+  section {
+    margin: 0;
+  }
+  .container {
+    padding: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .image {
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .title,
+  .ingredients,
+  .instructions,
+  .nutrition {
+    padding: 0 30px 0 30px;
+  }
+
+  .preparation {
+    margin: 30px;
+  }
+  .preparation {
+    padding: 20px;
+  }
+  .listPreparation {
+    margin-top: 0px;
+    padding-left: 28px;
+    padding-top: 10px;
+  }
+  .ingredients,
+  .instructions {
+    margin: 30px 0px 30px;
+    padding-left: 45px;
+  }
+  .listIngredients {
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+  .listIntructions {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .nutrition {
+    margin-top: 30px 30px;
+    padding-bottom: 40px;
+  }
+  .nutrition h2 {
+    font-size: 28px;
+    font-weight: normal;
+    color: #854632;
+  }
+  .parrafoNutrition {
+    padding: 24px 0px 24px;
+  }
+}
